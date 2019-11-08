@@ -1,10 +1,8 @@
-FROM jenkins/jenkins:2.176.3
+FROM jenkins/jenkins:2.190.2
 
 MAINTAINER Chad Gilbert <chad.gilbert@cqlcorp.com>
 
 USER root
-
-# RUN apt-get update && apt-get install -y git-lfs && rm -rf /var/lib/apt/lists/*
 
 # Taken from the recommended debian docker install section from
 # https://github.com/git-lfs/git-lfs/wiki/Installation
